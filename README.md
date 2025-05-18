@@ -1,4 +1,4 @@
-> 🩵 Versión actual: ^2.0.5
+> 🩵 Versión actual: ^0.0.1
 
 <h1 align="center">🩵 ̸̷᮫໊᷐͢᷍ᰍ MAKIMA BOT MD</p>
 <p>
@@ -13,7 +13,7 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 
 ---
 
-- **Cafirexos:** [Aquí](https://youtu.be/tiZ1scp5-EA?si=PgU2U7Nclk4wEJzR)
+- **LINKS IMPORTANTES**
 - **Termux:** [Aquí](https://youtu.be/gqtGeXRLImQ?si=PpM7EitywqFunEU5)
 - **Sky:** [Aquí](https://youtu.be/TzHyGH_6GH0?si=uKS3h8MXIhMOGrEM)
 
@@ -21,24 +21,7 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 
 ---
 
-### **`🌋 Cafirexos 🚀`**
-<a href="https://cafirexos.com">
-  <img width="180px" src="https://cdn.cafirexos.com/logos/logo_cfros_2000x2000.png"/>
-</a>
-
-<details>
- <summary><b>:paperclip: Enlaces Importantes</b></summary>
-
-- **Sitio Web:** [Aquí](https://cafirexos.com)
-- **Área de Clientes:** [Aquí](https://clientes.cafirexos.com)
-- **Panel de Control:** [Aquí](https://panel.cafirexos.com)
-- **Estado de los Servicios:** [Aquí](https://estado.cafirexos.com)
-
-</details>
-
----
-
-### **`☁️ Sky Ultra Plus 🚀`**
+## **`🩵 Sky Ultra Plus 🩵`**
 <a href="https://dash.skyultraplus.com/"><img src="https://files.catbox.moe/62pqnw.jpg" height="100px"></a>
 
 <details>
@@ -54,11 +37,11 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 ### **`🩵 TERMUX MAKIMA`**
 
 <details>
- <summary><b>:paperclip: 🖤 Comandos</b></summary>
+ <summary><b>:paperclip: Instalacion por termux</b></summary>
 
-<img src="https://files.catbox.moe/uut7ke.jpg" alt="MeguminBot" style="width: 100%; height: auto; max-width: 500px;">
+<img src="https://files.catbox.moe/uut7ke.jpg" alt="MakimaBot" style="width: 100%; height: auto; max-width: 500px;">
 
-> Nota: Copie y pegue los comandos en termux uno por uno.
+> Nota: Copia y pega los comandos en termux uno por uno.
 ```bash
 termux-setup-storage
 ```
