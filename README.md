@@ -16,6 +16,7 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 - **LINKS IMPORTANTES**
 - **Termux:** [Aquí](https://youtu.be/gqtGeXRLImQ?si=PpM7EitywqFunEU5)
 - **Sky:** [Aquí](https://youtu.be/TzHyGH_6GH0?si=uKS3h8MXIhMOGrEM)
+- **Grupo Oficial:** [aqui] 
 
 </details>
 
@@ -39,7 +40,7 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 <details>
  <summary><b>:paperclip: Instalacion por termux</b></summary>
 
-<img src="https://files.catbox.moe/uut7ke.jpg" alt="MakimaBot" style="width: 100%; height: auto; max-width: 500px;">
+<img src="https://files.catbox.moe/ksv9f3.jpg" alt="MakimaBot" style="width: 100%; height: auto; max-width: 500px;">
 
 > Nota: Copia y pega los comandos en termux uno por uno.
 ```bash
