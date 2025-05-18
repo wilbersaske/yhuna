@@ -15,8 +15,7 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 
 - **LINKS IMPORTANTES**
 - **Termux:** [Aquí](https://youtu.be/gqtGeXRLImQ?si=PpM7EitywqFunEU5)
-- **Sky:** [Aquí](https://youtu.be/TzHyGH_6GH0?si=uKS3h8MXIhMOGrEM)
-- **Grupo Oficial:** [aqui] 
+- **Sky:** [Aquí](https://youtu.be/TzHyGH_6GH0?si=uKS3h8MXIhMOGrEM) 
 
 </details>
 
@@ -52,7 +51,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/David-Chian/Makima-Bot-MD && cd Makima-Bot-MD
+git clone https://github.com/mantis-has/Makima-Bot-MD && cd Makima-Bot-MD
 ```
 
 ```bash
