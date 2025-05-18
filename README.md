@@ -1,6 +1,6 @@
 > 🩵 Versión actual: ^2.0.5
 
-<h1 align="center">💣 Megumin WaBot</p>
+<h1 align="center">🩵 ̸̷᮫໊᷐͢᷍ᰍ MAKIMA BOT MD</p>
 <p>
         <img src= "https://qu.ax/CbzQU.jpg">
     </p>
