@@ -1,7 +1,7 @@
 {
-"name": "Megumin-Bot-MD",
+"name": "Makima-Bot-MD",
 "version": "2.0.5",
-"description": "El Bot Más Explosivo De WhatsApp",
+"description": "La Bot Más Amorosa de todas",
 "main": "index.js",
 "type": "module",
 "directories": {
@@ -16,13 +16,13 @@
 "eslint": "eslint .",
 "eslintfix": "eslint --fix ."
 },
-"homepage": "https://github.com/David-Chian/Megumin-Bot-MD",
+"homepage": "https://github.com/mantis-has/makima-",
 "author": {
-"name": "David-Chian"
+"name": "mantis-has"
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/David-Chian/Megumin-Bot-MD.git"
+"url": "git+https://github.com/mantis-has/Makima-.git"
 },
 "bugs": {
 "url": "https://github.com/David-Chian/Megumin-Bot-MD/issues"
