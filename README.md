@@ -1,4 +1,4 @@
-> 💥 Versión actual: ^2.0.5
+> 🩵 Versión actual: ^2.0.5
 
 <h1 align="center">💣 Megumin WaBot</p>
 <p>
@@ -9,17 +9,9 @@
 
 ## Descripción
 
-Megumin es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrece una variedad de características para mejorar tu experiencia en WhatsApp.
+Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcionales para ti.
 
 ---
-
-### **`❤️ YouTube 🍬`**
-<a href="https://youtube.com/@davidchian4957">
-  <img width="180px" src="https://files.catbox.moe/3m3dih.jpg"/>
-</a>
-
-<details>
- <summary><b>:paperclip: Tutoriales</b></summary>
 
 - **Cafirexos:** [Aquí](https://youtu.be/tiZ1scp5-EA?si=PgU2U7Nclk4wEJzR)
 - **Termux:** [Aquí](https://youtu.be/gqtGeXRLImQ?si=PpM7EitywqFunEU5)
@@ -59,7 +51,7 @@ Megumin es un bot de WhatsApp multifuncional basado en `baileys`. Este bot ofrec
 
 ---
 
-### **`💣 Instalación por termux`**
+### **`🩵 TERMUX MAKIMA`**
 
 <details>
  <summary><b>:paperclip: 🖤 Comandos</b></summary>
@@ -76,7 +68,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/David-Chian/Megumin-Bot-MD && cd Megumin-Bot-MD
+git clone https://github.com/David-Chian/Makima-Bot-MD && cd Makima-Bot-MD
 ```
 
 ```bash
@@ -95,16 +87,16 @@ npm update
 npm start
 ```
 
-> Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación
+> Si aparece (Y/I/N/O/D/Z) [default=N] ? usa la letra "y" + "ENTER" para continuar con la instalación del bot.
 
-### **💣 Activar en caso de detenerse en termux**
+### **🩵 Como activar en caso de que se detiene en Termux**
 
 > Si después de instalar el bot en Termux se detiene (pantalla en blanco, pérdida de conexión a Internet, reinicio del dispositivo), sigue estos pasos:
 
 Abre Termux y navega al directorio del bot:
    
    ```bash
-    cd Megumin-Bot-MD
+    cd Makima-Bot-MD
    ```
 
 Inicia el bot nuevamente:
@@ -117,15 +109,7 @@ Inicia el bot nuevamente:
 
 ---
 
-### **`🌴 CONTRIBUTORS`**
-<a href="https://github.com/David-Chian/Megumin-Bot-MD/graphs/contributors">
-<img src="https://contrib.rocks/image?repo=David-Chian/Megumin-Bot-MD" /> 
-</a>
-
-### **`👑 CREADOR`**
+### **`🩵 CREADOR`**
 <a
-href="https://github.com/David-Chian"><img src="https://github.com/David-Chian.png" width="130" height="130" alt="David"/></a>
+Este bot es creado por Felix Manuel, el creador de M500 ULTRA BOT 🏆.
 
-## **`✨ GRACIAS`**
-<a
-href="https://github.com/BrunoSobrino"><img src="https://github.com/BrunoSobrino.png" width="130" height="130" alt="BrunoSobrino"/></a>
