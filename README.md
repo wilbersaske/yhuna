@@ -2,7 +2,7 @@
 
 <h1 align="center">🩵 ̸̷᮫໊᷐͢᷍ᰍ MAKIMA BOT MD</p>
 <p>
-        <img src= "https://qu.ax/CbzQU.jpg">
+        <img src= "https://files.catbox.moe/petcot.jpg">
     </p>
 
 ---
