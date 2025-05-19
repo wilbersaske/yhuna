@@ -4,8 +4,8 @@ import axios from 'axios';
 let previousCommitSHA = '';
 let previousUpdatedAt = '';
 let previousCommitUser = ''; 
-const owner = 'OfcDiego';
-const repo = 'LuffyBot-MD';
+const owner = 'Felix';
+const repo = 'Dioneibi-rip';
 const handler = async (m, {conn, text, usedPrefix, command}) => {
  conn.sendMessage(m.chat, {text: `*✅️ Comando activado con éxito, te notificaremos cuando se actualize el repositorio.*`}, {quoted: estilo});  
 try {
@@ -22,7 +22,7 @@ try {
       }
     } catch (error) {
       console.error(error)
-      m.reply('*🏓 Error Al Verificar El Repositorio*');
+      m.reply('*⚡ Error Al Verificar El Repositorio*');
     }
   }
   setInterval(checkRepoUpdates, 6000);
