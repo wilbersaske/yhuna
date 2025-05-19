@@ -8,7 +8,7 @@ let name2 = conn.getName(m.sender)
   let delirius = await axios.get(`https://delirius-apiofc.vercel.app/tools/country?text=${PhoneNumber('+' + m.sender.replace('@s.whatsapp.net', '')).getNumber('international')}`)
   let paisdata = delirius.data.result
   let mundo = paisdata ? `${paisdata.name} ${paisdata.emoji}` : 'Desconocido'
-  let perfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://qu.ax/QGAVS.jpg')
+  let perfil = await conn.profilePictureUrl(m.sender, 'image').catch(_ => 'https://files.catbox.moe/mqtxvp.jpg')
   let bio = 0, fechaBio
  // let who2 = m.isGroup ? _.get(m, "mentionedJid[0]", m.quoted?.sender || m.sender) : m.sender
   let sinDefinir = '😿 Es privada'
@@ -20,15 +20,15 @@ let name2 = conn.getName(m.sender)
   bio = biografia[0].status || sinDefinir
   fechaBio = biografia[0].setAt ? new Date(biografia[0].setAt).toLocaleDateString("es-ES", { day: "2-digit", month: "2-digit", year: "numeric", }) : "Fecha no disponible"
   }
-if (user.registered === true) throw `*『✦』Ya estas registrado, para volver a registrarte, usa el comando: #unreg*`
-if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, uselo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n#reg *${name2}.18*`
+if (user.registered === true) throw `*『✦』Ya estas registrado\n\nQuieres volver a registrarte?\n\nUsa el siguiente comando: #unreg*`
+if (!Reg.test(text)) throw `*『✦』El comando ingresado es incorrecto, usalo de la siguiente manera:*\n\n#reg *Nombre.edad*\n\n\`\`\`Ejemplo:\`\`\`\n#reg *${name2}.18*`
 let [_, name, splitter, age] = text.match(Reg)
 if (!name) throw '*『✦』No puedes registrarte sin nombre, el nombre es obligatorio. Inténtelo de nuevo.*'
 if (!age) throw '*『✦』No puedes registrarte sin la edad, la edad es opcional. Inténtelo de nuevo.*'
 if (name.length >= 30) throw '*『✦』El nombre no debe de tener mas de 30 caracteres.*' 
 age = parseInt(age)
-if (age > 999) throw '*『😏』Viejo/a Sabroso/a*'
-if (age < 5) throw '*『🍼』Ven aquí, te adoptare!!*'
+if (age > 999) throw '*『🩵』Este pendejo quiere jugar al bot.*'
+if (age < 5) throw '*『🩵』aww, que lindo bb.\n\nTe adoptare.*'
 user.name = name.trim()
 user.age = age
 user.descripcion = bio
@@ -40,29 +40,29 @@ global.db.data.users[m.sender].chocolates += 15
 global.db.data.users[m.sender].exp += 245
 global.db.data.users[m.sender].joincount += 12
 let sn = createHash('md5').update(m.sender).digest('hex').slice(0, 20)        
-m.react('📩') 
-let regbot = `👤 𝗥 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗢 👤
-•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
-「💭」𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
-「✨️」𝗘𝗱𝗮𝗱: ${age} años
-•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
+m.react('🩵') 
+let regbot = `🅁 𝗘 𝗚 𝗜 𝗦 𝗧 𝗥 𝗔 𝗗 𝗢
+━━━─────━━━─━━━━━
+├ׁ̟̇𝗡𝗼𝗺𝗯𝗿𝗲: ${name}
+├ׁ̟̇𝗘𝗱𝗮𝗱: ${age} años
+━━━─────━━━─━━━━━
 「🎁」𝗥𝗲𝗰𝗼𝗺𝗽𝗲𝗻𝘀𝗮𝘀:
-• 15 Chocolates 🍫
-• 5 MeguCoins 🪙
-• 245 Experiencia 💸
-• 12 Tokens 💰
+• 150 Diamantes 💎
+• 10 MakiCoins 🪙
+• 245 Experiencia ✨
+• 12 Tokens ⚡
 
-sіgᥙᥱ ᥒᥙᥱs𝗍r᥆ 𝗍ᥱᥲm!:
-${channel2}
-•┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄┄•
-${packname}`
+sіgᥙᥱ ᥒᥙᥱs𝗍r᥆ Canal:
+https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S
+━━━─────━━━─━━━━━
+> powered by 𓆩‌۫᷼ ִֶָღܾ݉͢ғ꯭ᴇ꯭፝ℓɪ꯭ͨא𓆪`
 await conn.sendMessage(m.chat, {
             text: regbot,
             contextInfo: {
 externalAdReply: {
             showAdAttribution: true,
-            title: '¡Usᥙᥲrі᥆ rᥱgіs𝗍rᥲძ᥆!',
-            body: '💥 ᴱˡ ᵇᵒᵗ ᵐᵃˢ ᵉˣᵖˡᵒˢᶦᵛᵒꜝꜝꜝ',
+            title: 'Nuevo registro',
+            body: '🩵 ࣭࣭͛𝆬ᩧּ֮⃝ૢ𝆭֟ Makima-Bot',
             thumbnailUrl: imagen3,
             sourceUrl: redes,
             previewType: "PHOTO",
