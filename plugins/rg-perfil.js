@@ -6,31 +6,31 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => imagen1)
 let { premium, level, chocolates, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
 let noprem = `
-🚩 *PERFIL DE USUARIO*
-☁️ *Nombre:* ${username}
-💥 *Tag:* @${who.replace(/@.+/, '')}
-🌀 *Registrado:* ${registered ? '✅': '❌'}
+⚡ *PERFIL DE USUARIO*
+🩵 *Nombre:* ${username}
+💎 *Tag:* @${who.replace(/@.+/, '')}
+✨ *Registrado:* ${registered ? '✅': '❌'}
 
-👑 *RECURSOS*
-🍫 *Chocolates:* ${chocolates}
-💥 *Nivel:* ${level}
-💫 *Experiencia:* ${exp}
-✨️ *Rango:* ${role}
+🏆 *RECURSOS*
+💎 *Diamantes:* ${chocolates}
+⚡ *Nivel:* ${level}
+✨ *Experiencia:* ${exp}
+🌟 *Rango:* ${role}
 
-💖 *Premium:* ${premium ? '✅': '❌'}
+💫 *Premium:* ${premium ? '✅': '❌'}
 `.trim()
 let prem = `╭──⪩ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ⪨
-│⧼👤⧽ *ᴜsᴜᴀʀɪᴏ:* 「${username}」
-│⧼💌⧽ *ʀᴇɢɪsᴛʀᴀᴅᴏ:* ${registered ? '✅': '❌'}
-│⧼🔱⧽ *ʀᴏʟ:* Vip 👑
+│⧼👤⧽ *Usuario:* 「${username}」
+│⧼💌⧽ *Registrado:* ${registered ? '✅': '❌'}
+│⧼🔱⧽ *VIP:* Vip 👑
 ╰───⪨
 
 ╭────⪩ 𝐑𝐄𝐂𝐔𝐑𝐒𝐎𝐒 ⪨
-│⧼🍫⧽ *ᴄʜᴏᴄᴏʟᴀᴛᴇs:* ${chocolates}
-│⧼🔰⧽ *ɴɪᴠᴇʟ:* ${level}
-│⧼💫⧽ *ᴇxᴘᴇʀɪᴇɴᴄɪᴀ:* ${exp}
-│⧼⚜️⧽ *ʀᴀɴɢᴏ:* ${role}
-╰───⪨ *𝓤𝓼𝓾𝓪𝓻𝓲𝓸 𝓓𝓮𝓼𝓽𝓪𝓬𝓪𝓭𝓸* ⪩`.trim()
+│⧼💎⧽ *Diamantes:* ${chocolates}
+│⧼🔰⧽ *Nivel:* ${level}
+│⧼💫⧽ *Exp:* ${exp}
+│⧼⚜️⧽ *Rango:* ${role}
+╰───⪨ * ᵐᵃᵏⁱᵐᵃ ᵇᵒᵗ* ⪩`.trim()
 conn.sendFile(m.chat, pp, 'perfil.jpg', `${premium ? prem.trim() : noprem.trim()}`, m, rcanal, { mentions: [who] })
 }
 handler.help = ['profile']
