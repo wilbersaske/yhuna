@@ -8,19 +8,19 @@ let time = global.db.data.users[m.sender].lastmiming + 600000
 if (new Date - global.db.data.users[m.sender].lastmiming < 600000) return conn.reply(m.chat, `*⏰ Debes esperar ${msToTime(time - new Date())} para volver a minar*`, m, )
 
 let hasil = Math.floor(Math.random() * 1000)
-let info = `⛏️ *Te has adentrando en lo profundo de las cuevas*
+let info = `⛏️ *Estabas minando*
 
-> *💥 Obtuviste estos recursos*
+> *🩵 Obtuviste estos recursos*
 
-💣 *Exp*: ${hasil}
-🍫 *Chocolates*: ${chocolates}
-💥 *Esmeralda*: ${emerald}
+✨ *Exp*: ${hasil}
+💎 *Diamantes*: ${chocolates}
+⚡ *Esmeralda*: ${emerald}
 🔩 *Hierro*: ${iron}
 🏅 *Oro*: ${gold}
 🕋 *Carbón*: ${coal}
 🪨 *Piedra*: ${stone}`
 
-conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '💥 *Minando.. - MeguminBot* 💣', 'status@broadcast' )
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '💎 *Minando.. - MakimaBot* 🩵', 'status@broadcast' )
 await m.react('⛏️')
 
 user.health -= 50
