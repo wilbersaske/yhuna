@@ -40,20 +40,20 @@ global.opts['gconly'] = true
 
 //creador y otros
 global.botcommandcount = bot.botcommandCount
-global.creador = 'Wa.me/5351524614'
+global.creador = 'Wa.me/18293142989'
 global.ofcbot = `${conn.user.jid.split('@')[0]}`
-global.asistencia = 'Wa.me/5351524614'
-global.namechannel = '⏤͟͞ू⃪ ፝͜⁞M͢ᴇɢ፝֟ᴜᴍ⃨ɪɴ⃜✰⃔࿐/ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸'
-global.namegrupo = '⁝̵̓ᝒ̷̸͙🌸̶̩ܻᝒ̷̸꯭͙𝝡꯭𝝣꯭𝗚꯭𝗨꯭𝗠꯭𝗜꯭𝗡'
-global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝝡𝝣𝗚𝗨𝗠𝗜𝗡'
-global.colab1 = 'Miguelon'
-global.colab2 = 'Steven'
-global.colab3 = 'Dino'
+global.asistencia = 'Wa.me/18293142989'
+global.namechannel = '𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - Channel'
+global.namegrupo = '𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - Grupo'
+global.namecomu = '𝗖𝗼𝗺𝘂𝗻𝗶𝗱𝗮𝗱 𝐌A͜͡𝑲𝑖𝐌ꪖ'
+global.colab1 = 'Felix'
+global.colab2 = 'Felix'
+global.colab3 = 'Felix'
 
 //Ids channel
-global.idchannel = '120363350554513092@newsletter'
-global.canalIdM = ["120363387958443019@newsletter", "120363350554513092@newsletter","120363358338732714@newsletter"]
-global.canalNombreM = ["──͟͞꘩𓎇̶𝐿̸𝑒̤𝑔֟֯፝𝑒⃯𝑛̷̈𝑑̤𝑠͡𔗓𝐵̸͜𝑜𝑡͜ꤩꤨ𝑠ꦁ⃯㍰ꫂ", "💜̶۫̄͟㉿𓏲𝐊̸͕᥆𝗍͡᥆r̤і̷𓍲̈͜𝗨̴ᥣ̥𝗍̈rᥲ̄𓊓̵̬𝐂̸͔һ͡ᥲ͓ᥒ̴͍ᥒ̷̈ᥱ̤ᥣ̵⋆͙̈么͟͞──","──̄͟͞⛛̵̅𝐌̸͡𝐞𝐠̵𝐮̲͜𝐦̷̈𝐢͜𝐧̸̤𝐁̷𝐨̶̇͜𝐭𓊓̴̻𝐂̷𝐡̶͡𝐚𝐧̈͜𝐧͜𝐞͜𝐥̵̲͞🔥̵̄͟"]
+global.idchannel = '120363418804796632@newsletter'
+global.canalIdM = ["120363420017244077@newsletter", "120363418804796632@newsletter","120363401697981206@newsletter"]
+global.canalNombreM = ["❦︎𝐓ᴏsʜ 𝐓ᴇᴀᴍꨄ︎","🩵̶۫̄͟Ⓜ︎𓏲𝐌500𓍲̈͜𝗨̴ᥣ̥𝗍̈rᥲ̄𓊓̵̬𝐂h҉a҉n҉n̸e҉l҉⋆͙̈么͟͞──","─̄͟͞⛛̵̅𝐌A͜͡𝑲𝑖𝐌ꪖ  𝐁o͟T͎ Channel─̄͟͞🩵"]
 global.channelRD = await getRandomChannel()
 
 //Reacciones De Comandos.!
@@ -62,25 +62,25 @@ global.done = '✅'
 global.error = '✖️'
 
 //Emojis determinado de Megumin
-global.emoji = '🔥'
-global.emoji2 = '💥'
-global.emoji3 = '❤️‍🔥'
-global.emoji4 = '🍭'
+global.emoji = '💎'
+global.emoji2 = '🩵'
+global.emoji3 = '💎'
+global.emoji4 = '🩵'
 global.emojis = [emoji, emoji2, emoji3, emoji4].getRandom()
 
 //mensaje en espera
-global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
-global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼, 𝗦𝗼𝘆 𝗟𝗲𝗻𝘁𝗮 ...*';
+global.wait = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...*';
+global.waitt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...*';
+global.waittt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...*';
+global.waitttt = '🕒 *𝗘𝘀𝗽𝗲𝗿𝗮 𝗨𝗻 𝗠𝗼𝗺𝗲𝗻𝘁𝗼...*';
 
 //Enlaces
-var canal = 'https://whatsapp.com/channel/0029Vb7Ji66KbYMTYLU9km3p'  
-let canal2 = 'https://whatsapp.com/channel/0029Vaxr2YgLCoWy2NS1Ab0a'
-var git = 'https://github.com/David-Chian' 
-var youtube = 'https://youtube.com/@davidchian4957' 
-var github = 'https://github.com/David-Chian/Megumin-Bot-MD' 
-let correo = 'noisebot40@gmail.com'
+var canal = 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'  
+let canal2 = 'https://whatsapp.com/channel/0029VbAfd7zDDmFXm5adcF31'
+var git = 'https://github.com/mantis-has' 
+var youtube = 'https://youtube.com/@frasesbebord.com' 
+var github = 'https://github.com/mantis-has/Makima' 
+let correo = 'frasesbebord@gmail.com'
 
 global.redes = [canal, canal2, git, youtube, github, correo].getRandom()
 
@@ -113,14 +113,14 @@ global.fake = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo
 }}, { quoted: m }
 
 global.icono = [ 
-'https://files.catbox.moe/f5yora.jpg',
-'https://files.catbox.moe/ny0hrb.jpg',
-'https://files.catbox.moe/cxrcml.jpg',
-'https://files.catbox.moe/jai8du.jpg',
-'https://files.catbox.moe/61i55j.jpg',
-'https://files.catbox.moe/1dqm9i.jpg',
-'https://files.catbox.moe/0hnyny.jpg',
-'https://qu.ax/CbzQU.jpg'
+'https://files.catbox.moe/ksv9f3.jpg',
+'https://files.catbox.moe/mqtxvp.jpg',
+'https://files.catbox.moe/1mb4du.jpg',
+'https://files.catbox.moe/petcot.jpg',
+'https://files.catbox.moe/3lmuvl.jpg',
+'https://files.catbox.moe/1mb4du.jpg',
+'https://files.catbox.moe/ksv9f3.jpg',
+'https://files.catbox.moe/3lmuvl.jpg'
 ].getRandom()
 
 global.rcanal = { contextInfo: { isForwarded: true, forwardedNewsletterMessageInfo: { newsletterJid: channelRD.id, serverMessageId: 100, newsletterName: channelRD.name, }, externalAdReply: { showAdAttribution: true, title: textbot, body: '💥 ꜞᴱˡ ᵇᵒᵗ ᵐᵃˢ ᵉˣᵖˡᵒˢⁱᵛᵒꜝ', mediaUrl: null, description: null, previewType: "PHOTO", thumbnailUrl: icono, sourceUrl: redes, mediaType: 1, renderLargerThumbnail: false }, }, }}
