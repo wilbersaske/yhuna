@@ -14,8 +14,8 @@ Este Bot es un super bot de whatsapp que te ofrese variedad de cosas muy funcion
 ---
 
 - **LINKS IMPORTANTES**
-- **Termux:** [Aquí](https://youtu.be/gqtGeXRLImQ?si=PpM7EitywqFunEU5)
-- **Sky:** [Aquí](https://youtu.be/TzHyGH_6GH0?si=uKS3h8MXIhMOGrEM) 
+- **Canal oficial:** [Aquí](https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S)
+- **Canal de Decos:** [Aquí](https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e) 
 
 </details>
 
