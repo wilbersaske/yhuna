@@ -4,23 +4,18 @@ let isInGroup = m.isGroup && (await conn.groupMetadata(m.chat)).participants.som
 
 let numeroTexto = isInGroup ? `@${creadorID.split('@')[0]}` : `+53 51524614`
 
-let creador = `🌹 *C R E A D O R - 💎 - B O T*
+let creador = `🩵 *C R E A D O R🩵*
 
-🌱 *NOMBRE:* ᥫᩣᎠ꯭I𝚫⃥꯭M꯭Ꭷ꯭Ꮑ꯭Ꭰ࠭⋆̟(◣_◢)凸
-🍟 *NUMERO:* ${numeroTexto}
-🪴 *LINK:* wa.me/5351524614
+🩵 *NOMBRE:* 𓆩‌۫᷼ ִֶָღܾ݉͢ғ꯭ᴇ꯭፝ℓɪ꯭ͨא𓆪
+🩵 *Bot:* MAKIMA
+🩵 *LINK CREADOR:* wa.me/18293142989
 
-👑 *E N L A C E S - U T I L E S:*
+👑 *ENLACES OFICIALES:*
 
 • *GRUPO OFC:*
-https://chat.whatsapp.com/F4QEFF2Hn4102NdbPJ2ZOi
+https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU
 • *CANAL OFC*
-https://whatsapp.com/channel/0029VaqAtuIK0IBsHYXtvA3e
-• *GITHUB:*
-https://github.com/David-Chian
-• *YOUTUBE:*
-https://youtube.com/@davidchian4957
-`
+https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S`
 
 await conn.sendMessage(m.chat, {
   text: creador.trim(),
@@ -31,7 +26,7 @@ await conn.sendMessage(m.chat, {
     externalAdReply: {
       showAdAttribution: true,
       renderLargerThumbnail: true,
-      title: `🥷 Developer 👑`,
+      title: `🩵 Developer 🩵`,
       body: packname,
       mediaType: 1,
       sourceUrl: redes,
