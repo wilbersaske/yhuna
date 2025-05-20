@@ -9,7 +9,7 @@ let noprem = `
 ⚡ *PERFIL DE USUARIO*
 🩵 *Nombre:* ${username}
 💎 *Tag:* @${who.replace(/@.+/, '')}
-✨ *Registrado:* ${registered ? '✅': '❌'}
+🌟 *Registrado:* ${registered ? '✅': '❌'}
 
 🏆 *RECURSOS*
 💎 *Diamantes:* ${chocolates}
