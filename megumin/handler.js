@@ -312,8 +312,8 @@ if (!['owner-unbanchat.js'].includes(name) && chat && chat.isBanned && !isROwner
 if (name != 'owner-unbanchat.js' && name != 'owner-exec.js' && name != 'owner-exec2.js' && name != 'tool-delete.js' && chat?.isBanned && !isROwner) return 
 if (user.antispam > 2) return
 if (m.text && user.banned && !isROwner) {
-m.reply(`🚫 Está baneado(a), no puede usar los comandos de este bot!\n\n${user.bannedReason ? `\n💌 *Motivo:* 
-${user.bannedReason}` : '💌 *Motivo:* Sin Especificar'}\n\n⚠️ *Si este bot es cuenta oficial y tiene evidencia que respalde que este mensaje es un error, puede exponer su caso en:*\n\n🤍 ${asistencia}`)        
+m.reply(`🚫 El usuario está baneado(a), no puede usar los comandos de la bot!\n\n${user.bannedReason ? `\n💌 *Motivo:* 
+${user.bannedReason}` : '💌 *Motivo:* Sin no especificado'}\n\n🩵 *Si este bot es cuenta oficial y tiene evidencia que respalde que este mensaje es un error, puede exponer su caso en:*\n\n🤍 ${asistencia}`)        
 user.antispam++
 return
 }
@@ -378,18 +378,18 @@ continue
 m.isCommand = true
 let xp = 'exp' in plugin ? parseInt(plugin.exp) : 10
 if (plugin.money && global.db.data.users[m.sender].money < plugin.money * 1) {
-m.reply(`No tienes suficiente Money para usar este comando. 🚩`)       
+m.reply(`No tienes suficientes Diamantes💎 para usar este comando...`)       
 continue     
 }
 
 m.exp += xp
 if (plugin.chocolates && global.db.data.users[m.sender].chocolates < plugin.chocolates * 1) {
-m.reply(`No tienes suficiente chocolates para usar este comando. 🍫`) 
+m.reply(`No tienes suficientes Diamantes💎  para usar este comando...`) 
 continue
 }
 
 if (plugin.level > _user.level) {
-m.reply(`No tienes el nivel para usar este comando. 💣`)  
+m.reply(`No cuentas con nivel suficiente para usar este comando...`)  
 continue
 }
 
@@ -444,10 +444,10 @@ await plugin.after.call(this, m, extra)
 console.error(e)
 }}
 if (m.chocolates)
-conn.reply(m.chat, `Utilizaste *${+m.chocolates}* 🍫`, m)
+conn.reply(m.chat, `✰ 𝐇𝖺𝗌 𝗀𝖺𝘀𝗍𝖺𝗱𝗈 *${+m.chocolates}* 𝖽𝗂𝖺𝗺𝖺𝗇𝗍𝖾𝗌 ᰍ💎☜︎︎︎`, m)
 }
 if (m.money)
-conn.reply(m.chat, `Utilizaste *${+m.money}* 💰`, m)
+conn.reply(m.chat, `✰ 𝐇𝖺𝗌 𝗀𝖺𝘀𝗍𝖺𝗱𝗈 *${+m.money}* 𝖽𝗂𝖺𝗺𝖺𝗇𝗍𝖾𝗌 ᰍ💎☜︎︎︎`, m)
 break
 }}} catch (e) {
 console.error(e)
