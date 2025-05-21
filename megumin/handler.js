@@ -503,14 +503,14 @@ if (opts['autoread']) await this.readMessages([m.key])
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「👑」 *Esta función solo puede ser usada por mi creador*\n\n> David-Chian.', 
-owner: '「👑」 *Esta función solo puede ser usada por mi desarrollador.', 
-premium: '「🍧」 *Esta función solo es para usuarios Premium.',  
-private: '「🍭」 *Esta función solo puede ser usada en chat privado.*', 
-admin: '「👑」 *Este comando solo puede ser usado por admins.*', 
-botAdmin: '「🚩」 *Para usar esta función debo ser admin.*', 
-unreg: '「🍟」 *¡Hey! no estas registrado, registrese para usar esta función*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg David.23*',
-restrict: '「💫」 *Esta característica esta desactivada.*'
+rowner: '「🩵」 *Este comando solo puede ser usada por mi creador*\n\n> Félix Manuel.', 
+owner: '「🩵」 *Este comando solo puede ser usado por mi desarrollador Dioneibi-rip.', 
+premium: '「🩵」 *Este comando solo es para usuarios Premium.',  
+private: '「🩵」 *Este comando solo puede ser usada en chats privados.*', 
+admin: '「🩵」 *Este comando solo puede ser usado por los admins.*', 
+botAdmin: '「🩵」 *Para usar este comando debo ser admin del grupo.*', 
+unreg: '「🩵」 *¡Hey! no estas registrado, registrate para usar mis comandos*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg Félix.13*',
+restrict: '「🩵」 *Esta característica esta desactivada.*'
 }[type];
 if (msg) return conn.reply(m.chat, msg, m, rcanal).then(_ => m.react('✖️'))}
 
