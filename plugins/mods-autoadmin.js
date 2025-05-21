@@ -1,12 +1,12 @@
 const handler = async (m, {conn, isAdmin, groupMetadata }) => {
-  if (isAdmin) return m.reply('💣 *Ya eres adm*.',m, rcanal);
+  if (isAdmin) return m.reply('🩵 *Ya eres administrador\n\n>MakimaBot*.',m, rcanal);
   try {
     await conn.groupParticipantsUpdate(m.chat, [m.sender], 'promote');
 
-   // m.reply('💣 *Listo*.', m);
+   // m.reply('🩵 *Listo ya te puse de admin*.', m);
 
   } catch {
-    m.reply('🚩 Ocurrio un error.');
+    m.reply('💎 Ah ocurrido un error.');
   }
 };
 handler.tags = ['mods'];
