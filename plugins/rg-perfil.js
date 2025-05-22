@@ -6,16 +6,27 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => imagen1)
 let { premium, level, chocolates, exp, lastclaim, registered, regTime, age, role } = global.db.data.users[m.sender]
 let username = conn.getName(who)
 let noprem = `
-⚡ *PERFIL DE USUARIO*
-🩵 *Nombre:* ${username}
-💎 *Tag:* @${who.replace(/@.+/, '')}
-🌟 *Registrado:* ${registered ? '✅': '❌'}
+╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹╭─╮
+├ׁ̟̇      ⚘݄𝐏𝖾𝗋𝗳𝗂𝗅 𝖽𝗲𝗅 𝗎𝗌𝗎𝖺𝗿𝗂𝗈 
+├ׁ̟̇             ${taguser}
+╚▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬ִ▭࣪▬▭╝
 
-🏆 *RECURSOS*
+╭─╮︹︹⊹︹︹⊹︹︹⊹︹︹
+┃Nombre: ${username}
+┃País: ${global.userNationality}
+┃Registrado: ${registered ? '✅': '❌'}
+╰━─━─━─≪≪✠≫≫─━─━─━╯
+
+「🎁」RECURSOS:
+
+✨ XP: ${exp}
 💎 *Diamantes:* ${chocolates}
-⚡ *Nivel:* ${level}
-✨ *Experiencia:* ${exp}
-🌟 *Rango:* ${role}
+💫 *Nivel:* ${level}
+✉️ Rango: ${role}
+╰━━━━━━━━━━━━━
+
+Para ver mi lista de comandos usa:
+» #menu
 
 💫 *Premium:* ${premium ? '✅': '❌'}
 `.trim()
