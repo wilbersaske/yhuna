@@ -25,9 +25,6 @@ let noprem = `
 ✉️ Rango: ${role}
 ╰━━━━━━━━━━━━━
 
-Para ver mi lista de comandos usa:
-» #menu
-
 💫 *Premium:* ${premium ? '✅': '❌'}
 `.trim()
 let prem = `╭──⪩ 𝐔𝐒𝐔𝐀𝐑𝐈𝐎 𝐏𝐑𝐄𝐌𝐈𝐔𝐌 ⪨
