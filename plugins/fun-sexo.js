@@ -236,8 +236,8 @@ let handler = async (m, { conn, usedPrefix }) => {
     }, { quoted: m });
 }
 
-handler.help = ['menuprembots'];
+handler.help = ['fraseanime'];
 handler.tags = ['anime'];
-handler.command = ['fraseanime', 'phraseanime'];
+handler.command = ['menuprembots', 'makima'];
 
 export default handler;
