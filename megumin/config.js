@@ -34,9 +34,9 @@ global.jadi = 'MakimaJadiBot'
 global.meguminJadibts = true
 
 //• ↳ ◜𝑴𝑨𝑹𝑪𝑨𝑺 𝑫𝑬 𝑨𝑮𝑼𝑨◞ • 💌
-global.packsticker = `𝐌𝐀𝐊𝐈𝐌𝐀 𝐁𝐎𝐓\n├ ɓσƭ:\n├ 𝐏𝐫𝐨𝐩𝐢𝐞𝐭𝐚𝐫𝐢𝐨:\n├ 𝐅𝐞𝐜𝐡𝐚 𝐝𝐞 𝐂𝐫𝐞𝐚𝐜𝐢𝐨́𝐧:\n├ 𝐇𝐨𝐫𝐚:\n♾━━━━━━━━`
+global.packsticker = `├Creador:\n\nFelix Manuel\n\n├ ɓσƭ:\n\nMakima\n\Fecha De Creación:\n\n${moment.tz('America/Los_Angeles').format('DD/MM/YY')} \n\nHora de Creación:\n\n${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n━━━━━━━━♾`
 global.packname = `MAKIMA BOT`
-global.author = `♾━━━━━━━━\nMAKIMA-BOT-MD\nFelix Manuel\n⇝ ${moment.tz('America/Los_Angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_Angeles').format('HH:mm:ss')} \n♾━━━━━━━━\n\n\n\nSticker by: 𝐌𝐚k͜͡ima✰ᵇᵒᵗ`;
+global.author = `♾━━━━━━━━\nUsuario: ${taguser}`;
 global.wm = '𝐌A͜͡𝑲𝑖𝐌ꪖ  𝐁o͟T͎ 𝙼𝙳';
 global.titulowm = '͟͞✰𝐓𝒐𝒔𝒉 𝐓𝒆𝒂𝒎✰';
 global.titulowm2 = `͟͞✰𝐓𝒐𝒔𝒉 𝐓𝒆𝒂𝒎✰`
