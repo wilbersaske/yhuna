@@ -14,16 +14,15 @@ const handler = async (m, {isPrems, conn}) => {
   global.db.data.users[m.sender].exp += expp;
 
   const texto = `
-╭━〔 ${global.botname} 〕⬣
-┃🚩 *Obtienes Un Cofre*
-┃ ${saludo}
+╭━〔 COFRE DE HOY 〕⬣
+┃ *Obtienes Un Cofre*
 ╰━━━━━━━━━━━━⬣
 
-╭━〔 ${global.botname} 〕⬣
-┃ *${dia} Chocolates* 🍪
-┃ *${tok} Tokens* 💰
-┃ *${ai} MeguCoins* ❤️‍🔥
-┃ *${expp} Exp* ⚡
+╭━〔 RECURSOS OBTENIDOS 〕⬣
+┃ *${dia} DIAMANTES* 💎
+┃ *${tok} TOKENS* 💳
+┃ *${ai} MakiCoins* 💰
+┃ *${expp} Exp* ✨
 ╰━━━━━━━━━━━━⬣`;
 
   const fkontak = {
