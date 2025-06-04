@@ -4,10 +4,10 @@ import path from 'path'
 let sessionPath = `./${sessions}/`
 
 async function clearSessions() {
-    console.log('💜 Iniciando limpieza de archivos de sesión...')
+    console.log('🩵 Ejecutandoo una limpieza de archivos de sesión...')
     
     if (!existsSync(sessionPath)) {
-        console.log('🍁 La carpeta de sesiones no existe o está vacía.')
+        console.log('🩵 La carpeta de sesiones no existe o está vacía.')
         return
 }
 
@@ -21,12 +21,12 @@ async function clearSessions() {
                 filesDeleted++
 }}
         if (filesDeleted > 0) {
-            console.log(`💜 Se eliminaron ${filesDeleted} archivos de sesión, excepto creds.json`)
+            console.log(`🩵 Se eliminaron ${filesDeleted} archivos de sesión, excepto creds.json`)
 } else {
-            console.log('🍁 No hay archivos para eliminar')
+            console.log('🩵 No hay archivos para eliminar')
 }
 } catch (err) {
-        console.error('💔 Ocurrió un fallo al limpiar la sesión:', err)
+        console.error('🩵 Ocurrió un fallo al limpiar la sesión:', err)
 }}
 setInterval(clearSessions, 3 * 60 * 60 * 1000)
 clearSessions()*/
