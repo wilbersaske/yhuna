@@ -1,6 +1,6 @@
 /*
 • @David-Chian
-- https://github.com/David-Chian
+- https://github.com/mantis-has
 */
 
 import fetch from 'node-fetch';
@@ -72,7 +72,7 @@ async function sendAlbumMessage(jid, medias, options = {}) {
 }
 
 const handler = async (m, { conn, args }) => {
-    if (!args.length) return m.reply('⚠️ Debes ingresar una palabra clave. Ejemplo: /gimagenes gatos');
+    if (!args.length) return m.reply('🩵 Debes ingresar una palabra clave. Ejemplo: /gimagenes gatos');
 
     let query = args.join(" ");
     let apiUrl = `https://delirius-apiofc.vercel.app/search/gimage?query=${encodeURIComponent(query)}`;
@@ -81,20 +81,20 @@ const handler = async (m, { conn, args }) => {
         let res = await fetch(apiUrl);
         let json = await res.json();
 
-        if (!json.status || !json.data.length) return m.reply('❌ No encontré imágenes para tu búsqueda.');
+        if (!json.status || !json.data.length) return m.reply('✖️ No encontré imágenes para tu búsqueda.');
 
         let images = json.data.slice(0, 15).map(img => ({
             type: "image",
             data: { url: img.url }
         }));
 
-        let caption = `📸 *Resultados para:* ${query}`;
+        let caption = `🩵 *Resultados para:* ${query}`;
 
         await sendAlbumMessage(m.chat, images, { caption, quoted: m });
 
     } catch (error) {
         console.error(error);
-        m.reply('⚠️ Hubo un error al obtener las imágenes.');
+        m.reply('🩵 ̸̷᮫໊᷐͢᷍ᰍ  Ocurrio un error al obtener las imágenes.');
     }
 };
 
