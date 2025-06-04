@@ -100,4 +100,4 @@ Este bot es creado por Felix Manuel, el creador de M500 ULTRA BOT 🏆.
 
 ---
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Este+es+el+Repositorio+de+MAKIMA+BOT-+MD.0;Gracias+por+preferirnos;Creado+por+Félix;💎🩵+MakimaBot!!!;💎🩵)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=FF0000&lines=Este+es+el+Repositorio+de+MAKIMA+BOT-+MD;Creado+por+Félix+Manuel;💎🩵+MakimaBot🩵💎;💎🩵MakimaBot🩵💎)](https://git.io/typing-svg)
