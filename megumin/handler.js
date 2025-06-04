@@ -503,10 +503,10 @@ if (opts['autoread']) await this.readMessages([m.key])
 
 global.dfail = (type, m, conn) => {
 const msg = {
-rowner: '「🩵」 *Este comando solo puede ser usada por mi creador*\n\n> Félix Manuel.', 
-owner: '「🩵」 *Este comando solo puede ser usado por mi desarrollador Dioneibi-rip.', 
+rowner: '「🩵」 *Este comando solo puede ser usado por mi creador*\n\n> Félix Manuel.', 
+owner: '「🩵」 *Este comando solo puede ser usado por mis desarrolladores.', 
 premium: '「🩵」 *Este comando solo es para usuarios Premium.',  
-private: '「🩵」 *Este comando solo puede ser usada en chats privados.*', 
+private: '「🩵」 *Este comando solo puede ser usado en chats privados.*', 
 admin: '「🩵」 *Este comando solo puede ser usado por los admins.*', 
 botAdmin: '「🩵」 *Para usar este comando debo ser admin del grupo.*', 
 unreg: '「🩵」 *¡Hey! no estas registrado, registrate para usar mis comandos*\n\n*/reg nombre.edad*\n\n*_❕ Ejemplo_* : */reg Félix.13*',
