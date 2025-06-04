@@ -11,7 +11,7 @@ const LimitVid = 425 * 1024 * 1024; //425MB
 const handler = async (m, {conn, command, args, text, usedPrefix}) => {
 
 if (command == 'ytmp3' || command == 'musica') {
-if (!text) return m.reply(`*Que está buscando?*\n*Ingrese el nombre de la canción*`) 
+if (!text) return m.reply(`*Que está buscando?*\n*《✧》 Ingresa el nombre de la canción*`) 
 const yt_play = await search(args.join(' '));
 const ytplay2 = await yts(text);
 let imgUrl = `https://random-apis.shop/generate-card?titulo=${yt_play[0].title}&autor=${yt_play[0].author.name}&thumbnail=${yt_play[0].thumbnail}&tempo=${secondString(yt_play[0].duration.seconds)}`;
@@ -19,7 +19,7 @@ await conn.sendFile(m.chat, imgUrl, 'error.jpg', `${yt_play[0].title}
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 
 *Duración:* ${secondString(yt_play[0].duration.seconds)}
-*Aguarde un momento en lo que envío su audio*`, m);
+*⁖❤️꙰ Espera un momento hasta que envie tu audio*`, m);
 try {
 const res = await fetch(`https://api.siputzx.my.id/api/d/ytmp3?url=${yt_play[0].url}`);
 let { data } = await res.json();
@@ -90,7 +90,7 @@ console.log(e);
 }}}}}}}}}}}
 
 if (command == 'ytmp4' || command == 'video') {
-if (!text) return m.reply(`*Que está buscando?*\n*Ingrese el nombre de la canción*`) 
+if (!text) return m.reply(`*Que intentas buscar*\n\n*Ingresa el nombre de la canción*`) 
 const yt_play = await search(args.join(' '));
 const ytplay2 = await yts(text);
 let imgUrl = `https://random-apis.shop/generate-card?titulo=${yt_play[0].title}&autor=${yt_play[0].author.name}&thumbnail=${yt_play[0].thumbnail}&tempo=${secondString(yt_play[0].duration.seconds)}`;
@@ -98,7 +98,7 @@ await conn.sendFile(m.chat, imgUrl, 'error.jpg', `${yt_play[0].title}
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 
 *Duración:* ${secondString(yt_play[0].duration.seconds)}
-*Aguarde un momento en lo que envío su video*`, m);
+*《✧》  Espera un momento hasta que envíe tu video*`, m);
 try {
 const res = await fetch(`https://api.siputzx.my.id/api/d/ytmp4?url=${yt_play[0].url}`);
 let { data } = await res.json();
@@ -181,9 +181,9 @@ const texto1 = `${yt_play[0].title}
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 
 *Duración:* ${secondString(yt_play[0].duration.seconds)}
-*Descargado el audio en documentos, aguarden un momento por favor....*
+*⁖❤️꙰ Descargado el audio en documentos, espera un momento....*
 
-> _*Si este comando falla usar de la seguirte manera:*_ ${usedPrefix}ytmp3doc ${yt_play[0].url}`.trim();
+> _*Si este comando falla, usalo de la seguirte manera:*_ ${usedPrefix}ytmp3doc ${yt_play[0].url}`.trim();
 
 await conn.sendFile(m.chat, imgUrl, 'error.jpg', texto1, m);
 try {
@@ -242,9 +242,9 @@ const texto1 = `${yt_play[0].title}
 *⇄ㅤ     ◁   ㅤ  ❚❚ㅤ     ▷ㅤ     ↻*
 
 *Duración:* ${secondString(yt_play[0].duration.seconds)}
-*Descargado el vídeo en documentos, aguarden un momento por favor....*
+*⁖❤️꙰ Descargado el vídeo en documentos, Espera un momento....*
 
-> _*Si este comando falla usar de la seguirte manera:*_ ${usedPrefix}ytmp4doc ${yt_play[0].url}`.trim();
+> _*Si este comando falla, usalo de la seguirte manera:*_ ${usedPrefix}ytmp4doc ${yt_play[0].url}`.trim();
 
 await conn.sendFile(m.chat, imgUrl, 'error.jpg', texto1, m);
 try {
