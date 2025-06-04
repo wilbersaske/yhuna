@@ -6,12 +6,12 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
   let user = global.db.data.users[m.sender];
 
   if (user.chocolates < 2) {
-    return conn.reply(m.chat, `ꕥ No tienes suficientes *Chocolates 🍫* Necesitas 2 más para usar este comando.`, m);
+    return conn.reply(m.chat, `🩵 Necesitas 2 Diamantes para poder usar este comando.`, m);
   }
 
   try {
     if (!text.trim()) {
-      return conn.reply(m.chat, `✧ Ingresa el nombre de la música a descargar.`, m);
+      return conn.reply(m.chat, `🩵 Ingresa el nombre de la música que deseas descargar.`, m);
     }
 
     const search = await yts(text);
@@ -75,7 +75,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     await conn.sendMessage(m.chat, { audio: { url: result }, fileName: `${api.result.title}.mp3`, mimetype: 'audio/mpeg' }, { quoted: m });
   } catch (e) {
     console.error('Error al enviar el audio:', e.message);
-    return conn.reply(m.chat, '⚠︎ No se pudo enviar el audio. Esto puede deberse a que el archivo es demasiado pesado o a un error en la generación de la URL. Por favor, intenta nuevamente mas tarde.', m);
+    return conn.reply(m.chat, 'No pude enviar tu audio. Esto puede ser debido a problemas de ortografía o el audio es demasiado largo.', m);
   }
 } else if (command === 'play2' || command === 'mp4' || command === 'playvideo') {
   try {
@@ -89,14 +89,14 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     await conn.sendMessage(m.chat, { video: { url: resultado }, fileName: resultad.title, mimetype: 'video/mp4', caption: dev }, { quoted: m });
   } catch (e) {
     console.error('Error al enviar el video:', e.message);
-    return conn.reply(m.chat, '⚠︎ No se pudo enviar el video. Esto puede deberse a que el archivo es demasiado pesado o a un error en la generación de la URL. Por favor, intenta nuevamente mas tarde.', m);
+    return conn.reply(m.chat, '⚠︎ No pude enviar tu video. Esto puede ser debido a problemas de ortografía o el video es demasiado largo.', m);
   }
 } else {
   return conn.reply(m.chat, '⚠︎ Comando no reconocido.', m);
 }
 
     user.chocolates -= 2;
-    conn.reply(m.chat, `ꕥ Has utilizado 2 *Chocolates 🍫*`, m);
+    conn.reply(m.chat, `🩵 Utilizaste 2 *Diamantes*`, m);
 
   } catch (error) {
     return m.reply(`⚠︎ Ocurrió un error: ${error}`);
