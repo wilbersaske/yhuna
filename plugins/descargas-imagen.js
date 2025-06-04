@@ -1,6 +1,6 @@
 /*
-• @David-Chian
-- https://github.com/David-Chian
+• @mantis-has
+- https://github.com/mantis-has
 */
 
 import { googleImage } from '@bochilteam/scraper';
@@ -43,8 +43,8 @@ async function sendAlbumMessage(jid, medias, options = {}) {
 const megumin = async (m, { conn, text, usedPrefix, command }) => {
     if (!text) return conn.reply(m.chat, `*💜 Uso Correcto: ${usedPrefix + command} Kotori*`, m);
 
-    await m.react('⏳');
-    conn.reply(m.chat, '💜 *Descargando su imagen...*', m, {
+    await m.react('🕐');
+    conn.reply(m.chat, '🕐 *Procesando tu busqueda...*', m, {
 contextInfo: { externalAdReply :{ mediaUrl: null, mediaType: 1, showAdAttribution: true,
 title: packname,
 body: wm,
@@ -60,16 +60,16 @@ sourceUrl: channel }}})
             if (image) images.push({ type: "image", data: { url: image } });
         }
 
-        if (images.length < 2) return conn.reply(m.chat, '❌ No se encontraron suficientes imágenes para un álbum.', m);
+        if (images.length < 2) return conn.reply(m.chat, '✖️ No se encontraron suficientes imágenes para un álbum.', m);
 
-        const caption = `💜 *Resultados de búsqueda para:* ${text}`;
+        const caption = `🎁 *Resultados de búsqueda para:* ${text}`;
         await sendAlbumMessage(m.chat, images, { caption, quoted: m });
 
         await m.react('✅');
     } catch (error) {
         console.error(error);
         await m.react('❌');
-        conn.reply(m.chat, '⚠️ Hubo un error al obtener las imágenes.', m);
+        conn.reply(m.chat, '🩵 ̸̷᮫໊᷐͢᷍ᰍ  Ocurrio un error al obtener las imágenes.', m);
     }
 };
 
