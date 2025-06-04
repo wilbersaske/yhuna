@@ -3,15 +3,15 @@ const handler = async (m, {usedPrefix}) => {
   if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender;
   else who = m.sender;
   const name = conn.getName(who);
-  m.reply(`╭━〔  ${global.packname}  〕⬣
-┋🚩 *Usuario:* ${name}
-┋🍫 *Chocolates*: ${global.db.data.users[who].chocolates}
-┋💰 *Experiencia:* ${global.db.data.users[who].exp}
+  m.reply(`╭━〔  ECONOMIA BOT  〕⬣
+┋🩵 *Usuario:* ${name}
+┋💎 *Diamantes*: ${global.db.data.users[who].chocolates}
+┋✨ *Experiencia:* ${global.db.data.users[who].exp}
 ╰━━━━━━━━━━━━⬣
 
 ╭━〔  ${global.packname}  〕⬣
-┃ _Puedes Comprar Mas 🪙_
-┃ _Usando Los Siguentes Comandos_
+┃《✧》 Puedes Comprar mas
+┃Usando Los Siguentes Comandos
 ┃ *${usedPrefix}buy <cantidad>*
 ┃ *${usedPrefix}buyall*
 ╰━━━━━━━━━━━━⬣`)
