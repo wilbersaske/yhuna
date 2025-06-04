@@ -10,7 +10,7 @@ let handler = async (m, {conn, usedPrefix}) => {
    if (!(who in global.db.data.users)) return m.reply(`*El usuario no se encuentra en mi base de datos*`)
    let user = global.db.data.users[who]
    let name = conn.getName(who);
-   let txt = (`${who == m.sender ? `╭━〔  ${global.packname}  〕⬣\n┋ *Usuario:* ${name}\n┋ *Chocolates En Cartera*: ${user.chocolates}\n┋ *Chocolates En Banco*: ${user.bank}\n┋ *Experiencia:* ${user.exp}\n┋ *Nivel:* ${user.level}\n┋ *Rol:* ${user.role}\n┋ *Fecha:* ${new Date().toLocaleString('id-ID')}\n╰━━━━━━━━━━━━⬣` : `╭━〔  ${global.packname}  〕⬣\n┋ *Usuario:* @${who.split('@')[0]}\n┋ *Chocolates En Cartera*: ${user.chocolates}\n┋ *Chocolates En Banco*: ${user.bank}\n┋ *Experiencia:* ${user.exp}\n┋ *Nivel:* ${user.level}\n┋ *Rol:* ${user.role}\n┋ *Fecha:* ${new Date().toLocaleString('id-ID')}\n╰━━━━━━━━━━━━⬣`}`)
+   let txt = (`${who == m.sender ? `╭━〔  ECONOMIA  〕⬣\n┋ *Usuario:* ${name}\n┋ *Diamantes En Cartera*: ${user.chocolates}\n┋ *Diamantes En Banco*: ${user.bank}\n┋ *Experiencia:* ${user.exp}\n┋ *Nivel:* ${user.level}\n┋ *Rol:* ${user.role}\n┋ *Fecha:* ${new Date().toLocaleString('id-ID')}\n╰━━━━━━━━━━━━⬣` : `╭━〔  ${global.packname}  〕⬣\n┋ *Usuario:* @${who.split('@')[0]}\n┋ *Diamantes En Cartera*: ${user.chocolates}\n┋ *Diamantes En Banco*: ${user.bank}\n┋ *Experiencia:* ${user.exp}\n┋ *Nivel:* ${user.level}\n┋ *Rol:* ${user.role}\n┋ *Fecha:* ${new Date().toLocaleString('id-ID')}\n╰━━━━━━━━━━━━⬣`}`)
 await conn.sendFile(m.chat, img, 'thumbnail.jpg', txt, m, null, {mentions: [who] }, rcanal)
 }
 
