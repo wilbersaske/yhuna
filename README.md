@@ -1,4 +1,4 @@
-> 🩵 Versión actual: ^0.0.1
+> 🩵 Versión actual: 0.0.1
 
 <h1 align="center">🩵 ̸̷᮫໊᷐͢᷍ᰍ MAKIMA BOT MD</p>
 <p>
@@ -51,7 +51,7 @@ apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
 ```
 
 ```bash
-git clone https://github.com/mantis-has/Makima-Bot-MD && cd Makima-Bot-MD
+git clone https://github.com/mantis-has/Makima && cd Makima
 ```
 
 ```bash
@@ -93,7 +93,7 @@ Inicia el bot nuevamente:
 ---
 
 ### **`🩵 CREADOR`**
-<a
+
 Este bot es creado por Felix Manuel, el creador de M500 ULTRA BOT 🏆.
 
 </details>
