@@ -45,9 +45,9 @@ global.vs = '2.1.5'
 global.vsJB = '5.0'
 global.nameqr = '𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - 𝙼𝙳'
 global.namebot = '𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - 𝙼𝙳'
-global.sessions = 'Sessions'
-global.jadi = 'JadiBots' 
-global.VegetaJadibts = true
+global.sessions = 'MeguminSession'
+global.jadi = 'MeguminJadiBot'
+global.meguminJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
