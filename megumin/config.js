@@ -23,7 +23,7 @@ global.owner = [
   ['50557333744', 'JonathanG', true],
   ['56940429343', 'Abraham Ch', true], 
   ['573181648603', 'HaroldOfc', true], 
-  ['18293142989', 'MakimaBot', true],  
+  ['573133374132', '💖💝 Y⃟o⃟ S⃟o⃟y⃟ Y⃟o⃟ 💝 💖', true],  
   ['18293142989', 'Makima oficial Bot', true], 
   ['18293142989', 'M500 ULTRA BOT', true],
   ['18293142989', 'Félix Manuel 2.0', true],
