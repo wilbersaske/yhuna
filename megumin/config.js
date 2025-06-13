@@ -27,6 +27,7 @@ global.owner = [
   ['18293142989', 'Makima oficial Bot', true], 
   ['18293142989', 'M500 ULTRA BOT', true],
   ['18293142989', 'Félix Manuel 2.0', true],
+  ['176742836768966', 'SoyMaycol', true],
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
