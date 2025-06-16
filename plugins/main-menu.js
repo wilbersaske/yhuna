@@ -30,10 +30,10 @@ let perfil = await conn.profilePictureUrl(who, 'image').catch(_ => 'https://file
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
 const vid = ['https://files.catbox.moe/falp8a.mp4', 'https://files.catbox.moe/falp8a.mp4', 'https://files.catbox.moe/falp8a.mp4']
 
-let menu = `¡Hola! *${taguser}* soy *Makima ( ${(conn.user.jid == global.conn.user.jid ? 'OficialBot' : 'Prem-Bot')} ).* 
+let menu = `¡Hola! *${taguser}* soy *setsuna ( ${(conn.user.jid == global.conn.user.jid ? 'OficialBot' : 'Prem-Bot')} ).* 
 
 ╭━━I N F O-B O T━━
-┃Creador: 𓆩‌۫᷼ ִֶָღܾ݉͢ғ꯭ᴇ꯭፝ℓɪ꯭ͨא𓆪
+┃Creador: ঔৣ͜͡ீ͜❥🌺𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚
 ┃Tiempo activo: ${uptime}
 ┃Baileys: Multi device.
 ┃Base: Oficial.
@@ -42,7 +42,7 @@ let menu = `¡Hola! *${taguser}* soy *Makima ( ${(conn.user.jid == global.conn.u
 
 .       ╭ֹ┈ ⵿❀⵿ ┈╮ ㅤ
  ╭ֹ┈ ⵿❀⵿ ┈╮INFO-USER
-┃┈➤ Creador: Félix 
+┃┈➤ Creador: ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄ 
 ┃┈➤ Cliente: ${nombre}
 ┃┈➤ Rango: ${role}
 ┃┈➤ Nivel: ${level}
