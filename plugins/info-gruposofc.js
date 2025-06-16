@@ -5,16 +5,16 @@ let fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "status
  await m.react('🩵')
 let str = `*🩵 GRUPO OFICIAL*
 
-   *_🩵̶۫̄͟Ⓜ︎𝐌𝐚𝐤𝖎𝖒𝔞 🝮︎︎︎︎︎︎︎ 𝐁o͟t͜͡么͟͞──_*
-  ┃🧸❏ https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU
+   *_̶۫̄͟ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀么͟͞──_*
+  ┃🧸❏ https://chat.whatsapp.com/K6z5EvV3EXkGdTzYwn8VU6
 
 
    *_Canal Oficial_*
-┃🩵❏ https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S
+┃🩵❏ https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i
 `
-await conn.sendButton(m.chat, str, `͟͞𓆩‌۫᷼ ִֶָღܾ݉͢ғ꯭ᴇ꯭፝ℓɪ꯭ͨא𓆪\n` + wm, media, [
+await conn.sendButton(m.chat, str, `͟͞𓆩‌۫᷼𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄\n` + wm, media, [
 ['🩵Menu Lista🩵', '/lista']], null, [
-['─̄͟͞⛛̵̅𝐌𝐚𝐤𝖎𝖒𝔞 ✠ 𝐁o͟t͜͡─̄͟͞🩵', `${md}`]], fkontak)}
+['─̄͟͞ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚─̄͟͞🩵', `${md}`]], fkontak)}
                       
 handler.command = ['grupos','linksk','gruposofc','gruposoficiales']
 handler.register = true
