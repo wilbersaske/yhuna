@@ -48,7 +48,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://chat.whatsapp.com/H5bw4MJucS1BBHnZ9wv3vI` },
+    document: { url: `https://chat.whatsapp.com/K6z5EvV3EXkGdTzYwn8VU6` },
     mimetype: `application/${document}`,
     fileName: `「 Setsuna-𝘉𝘰𝘵💥 」`,
     fileLength: 99999999999999,
