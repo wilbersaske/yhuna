@@ -17,13 +17,13 @@ global.confirmCode = ''
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
 global.owner = [
-  ['149963665342644', '🩵CREADOR🩵', true],
-  ['18294868853', 'DIONEIBI-RIP', true],
-  ['5216633900512', 'BrayanOfC', true],
-  ['50557333744', 'JonathanG', true],
-  ['56940429343', 'Abraham Ch', true], 
-  ['573181648603', 'HaroldOfc', true], 
-  ['573133374132', '💖💝 Y⃟o⃟ S⃟o⃟y⃟ Y⃟o⃟ 💝 💖', true],  
+  ['51931651504', '🩵CREADOR🩵', true],
+  ['51931651504', 'DIONEIBI-RIP', true],
+  ['51931651504', 'BrayanOfC', true],
+  ['51931651504', 'JonathanG', true],
+  ['51931651504', 'Abraham Ch', true], 
+  ['51931651504', 'HaroldOfc', true], 
+  ['51931651504', '💖💝 Y⃟o⃟ S⃟o⃟y⃟ Y⃟o⃟ 💝 💖', true],  
   ['18293142989', 'Makima oficial Bot', true], 
   ['18293142989', 'M500 ULTRA BOT', true],
   ['18293142989', 'Félix Manuel 2.0', true],
@@ -35,7 +35,7 @@ global.owner = [
 global.mods = ['18293142989', '18293142989', '18293142989', '18293142989', '18293142989']
 global.suittag = ['584120346669']
 global.prems = []
-global.numcreador = '+1 829 314 2989'
+global.numcreador = '+51 931 651 504'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -44,8 +44,8 @@ global.baileys = 'V 6.7.9'
 global.languaje = 'Español'
 global.vs = '2.1.5'
 global.vsJB = '5.0'
-global.nameqr = '𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - 𝙼𝙳'
-global.namebot = '𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - 𝙼𝙳'
+global.nameqr = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚'
+global.namebot = 'ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚'
 global.sessions = 'MeguminSession'
 global.jadi = 'MeguminJadiBot'
 global.meguminJadibts = true
@@ -57,12 +57,12 @@ global.packsticker2 = `━━━━━━━━♾\n─̄͟͞⛛̵̅𝐌𝐚𝐤
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - 𝙼𝙳`
-global.botname = '─̄͟͞⛛̵̅𝐌A͜͡𝑲𝑖𝐌ꪖ  𝐁o͟T͎ MD🩵'
-global.wm = '🩵̶۫̄͟Ⓜ︎𝐌𝐚𝐤𝖎𝖒𝔞 🝮︎︎︎︎︎︎︎ 𝐁o͟t͜͡么͟͞──'
-global.author = 'Made with Félix'
-global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Félix Manuel'
-global.textbot = 'MakimaBot : Felix Manuel'
+global.packname = `ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚`
+global.botname = '─̄͟͞ঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚'
+global.wm = '🩵𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄'
+global.author = 'Made with wilbersaske'
+global.dev = '© ⍴᥆ᥕᥱrᥱძ ᑲᥡ Wilbersaske'
+global.textbot = 'ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄'
 
 global.moneda = 'Diamantes'
 global.welcom1 = 'Mucho gusto'
@@ -84,10 +84,10 @@ global.gp4 = 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
 global.gp1 = 'https://chat.whatsapp.com/E1gpC3hj6ZkG0CCEZ4isRs' 
 global.gp2 = 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
 global.comunidad1 = 'https://chat.whatsapp.com/IEK8CGIqrI5L7KYtMGJNnx'
-global.channel = 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
-global.channel2 = 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
-global.md = 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
-global.correo = 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+global.channel = 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
+global.channel2 = 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
+global.md = 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
+global.correo = 'wilbersaske@gmail.com'
 global.cn ='https://chat.whatsapp.com/IEK8CGIqrI5L7KYtMGJNnx';
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
