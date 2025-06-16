@@ -10,7 +10,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/SGDrw.jpg',
             icono: 'https://qu.ax/uLhOy.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -18,7 +18,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/iUBoW.jpg',
             icono: 'https://qu.ax/XRsZZ.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -26,7 +26,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/ldtsS.jpg',
             icono: 'https://qu.ax/HLqhy.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -34,7 +34,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/R0v7T.jpg',
             icono: 'https://qu.ax/tv36s.jpg',
-            canal: 'https://whatsapp.com/channel/0029VakLbM76mYPPFL0IFI3P'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -42,7 +42,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/zEktf.png',
             icono: 'https://qu.ax/eYQPF.jpeg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -50,7 +50,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/NjfcJ.jpg',
             icono: 'https://qu.ax/hKVCD.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -58,7 +58,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/5y0lM.jpg',
             icono: 'https://qu.ax/m7e2Y.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '♥️ 【 MENU PREM BOTS 】 ♥️',
@@ -66,7 +66,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/JETiZ.jpg',
             icono: 'https://qu.ax/GLoHn.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -74,7 +74,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/dqRiC.png',
             icono: 'https://qu.ax/tgqkZ.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -82,7 +82,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/eUzLi.jpg',
             icono: 'https://qu.ax/uxSvb.png',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -90,7 +90,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 .',
             imagen: 'https://qu.ax/zupOV.jpg',
             icono: 'https://qu.ax/JbEnl.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -98,7 +98,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/CrNBM.jpg',
             icono: 'https://qu.ax/OaBwM.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -106,7 +106,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/DKlAD.jpg',
             icono: 'https://qu.ax/Ariqh.jpeg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -114,14 +114,14 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/SnQfR.png',
             icono: 'https://qu.ax/uUcYq.jpeg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
             frase: 'si no arriesgas tu vida, no puedes crear un futuro.',
             imagen: 'https://files.catbox.moe/9ccgaf.jpg',
             icono: 'https://files.catbox.moe/2mdcxf.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAOVajAO7RQt3rS683e'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -129,7 +129,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/42fduv.jpg',
             icono: 'https://files.catbox.moe/v0nxvk.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAfd7zDDmFXm5adcF31'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -137,7 +137,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/e6qji2.png',
             icono: 'https://files.catbox.moe/oc9zwf.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAfd7zDDmFXm5adcF31'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -145,7 +145,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/vtyjh0.jpg',
             icono: 'https://files.catbox.moe/9rugzk.webp',
-            canal: 'https://whatsapp.com/channel/0029VbAfd7zDDmFXm5adcF31'
+            canal: https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -153,7 +153,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/64f81b.jpg',
             icono: 'https://files.catbox.moe/88xgpo.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAfd7zDDmFXm5adcF31'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -161,7 +161,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/kl0gim.jpg',
             icono: 'https://files.catbox.moe/r4yx7z.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -169,7 +169,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/izrj29.jpg',
             icono: 'https://files.catbox.moe/zyrq8w.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -177,7 +177,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/uhkl02.jpg',
             icono: 'https://files.catbox.moe/vzykg3.jpg',
-            canal: 'https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -185,7 +185,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/8ukw2l.jpg',
             icono: 'https://files.catbox.moe/g5bisg.jpg',
-            canal: 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -193,7 +193,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://files.catbox.moe/8ukw2l.jpg',
             icono: 'https://files.catbox.moe/g5bisg.jpg',
-            canal: 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         },
         {
             personaje: '🩵 【 MENU PREM BOTS 】 🩵',
@@ -201,7 +201,7 @@ let handler = async (m, { conn, usedPrefix }) => {
 ',
             imagen: 'https://qu.ax/nmpSD.jpeg',
             icono: 'https://qu.ax/XPrwK.jpg',
-            canal: 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
+            canal: 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
         }
     ];
 
