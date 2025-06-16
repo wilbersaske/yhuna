@@ -2,7 +2,7 @@ let handler = async (m, { conn, command, usedPrefix }) => {
 let creadorID = '51931651504@s.whatsapp.net'
 let isInGroup = m.isGroup && (await conn.groupMetadata(m.chat)).participants.some(p => p.id === creadorID)
 
-let numeroTexto = isInGroup ? `@${creadorID.split('@')[0]}` : `+53 931651504`
+let numeroTexto = isInGroup ? `@${creadorID.split('@')[0]}` : `+51 931651504`
 
 let creador = `🩵 *C R E A D O R🩵*
 
