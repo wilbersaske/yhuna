@@ -1,21 +1,21 @@
 let handler = async (m, { conn, command, usedPrefix }) => {
-let creadorID = '5351524614@s.whatsapp.net'
+let creadorID = '51931651504@s.whatsapp.net'
 let isInGroup = m.isGroup && (await conn.groupMetadata(m.chat)).participants.some(p => p.id === creadorID)
 
-let numeroTexto = isInGroup ? `@${creadorID.split('@')[0]}` : `+53 51524614`
+let numeroTexto = isInGroup ? `@${creadorID.split('@')[0]}` : `+53 931651504`
 
 let creador = `🩵 *C R E A D O R🩵*
 
-🩵 *NOMBRE:* 𓆩‌۫᷼ ִֶָღܾ݉͢ғ꯭ᴇ꯭፝ℓɪ꯭ͨא𓆪
-🩵 *Bot:* MAKIMA
-🩵 *LINK CREADOR:* wa.me/18293142989
+🩵 *NOMBRE:* ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄
+🩵 *Bot:* SETSUNA
+🩵 *LINK CREADOR:* wa.me/51931651504
 
 👑 *ENLACES OFICIALES:*
 
 • *GRUPO OFC:*
-https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU
+https://chat.whatsapp.com/K6z5EvV3EXkGdTzYwn8VU6
 • *CANAL OFC*
-https://whatsapp.com/channel/0029VbAa5sNCsU9Hlzsn651S`
+https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i`
 
 await conn.sendMessage(m.chat, {
   text: creador.trim(),
