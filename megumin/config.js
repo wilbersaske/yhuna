@@ -18,22 +18,22 @@ global.confirmCode = ''
 
 global.owner = [
   ['51931651504', '🩵CREADOR🩵', true],
-  ['51931651504', 'DIONEIBI-RIP', true],
-  ['51931651504', 'BrayanOfC', true],
-  ['51931651504', 'JonathanG', true],
-  ['51931651504', 'Abraham Ch', true], 
-  ['51931651504', 'HaroldOfc', true], 
-  ['51931651504', '💖💝 Y⃟o⃟ S⃟o⃟y⃟ Y⃟o⃟ 💝 💖', true],  
-  ['18293142989', 'Makima oficial Bot', true], 
-  ['18293142989', 'M500 ULTRA BOT', true],
-  ['18293142989', 'Félix Manuel 2.0', true],
-  ['176742836768966', 'SoyMaycol', true],
+  ['51931651504', '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄', true],
+  ['51931651504', '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄', true],
+  ['51931651504', '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄', true],
+  ['51931651504', '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄', true], 
+  ['51931651504', '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄', true], 
+  ['51931651504', '💖💝 Y⃟o⃟ S⃟o⃟y⃟ Y⃟o⃟ 💞', true],  
+  ['51931651504', '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄', true], 
+  ['51931651504', '𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄', true],
+  ['51931651504', 'www wilbersaske 0.0', true],
+  ['51931651504', '𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚', true],
 ];
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.mods = ['18293142989', '18293142989', '18293142989', '18293142989', '18293142989']
-global.suittag = ['584120346669']
+global.mods = ['51931651504', '51931651504', '51931651504', '51931651504', '51931651504']
+global.suittag = ['51931651504']
 global.prems = []
 global.numcreador = '+51 931 651 504'
 
@@ -52,8 +52,8 @@ global.meguminJadibts = true
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packsticker =`°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°\n✦ Bσƚ: Makima\n✦ Creador: Félix\n♾━━━━━━━━`
-global.packsticker2 = `━━━━━━━━♾\n─̄͟͞⛛̵̅𝐌𝐚𝐤𝖎𝖒𝔞 ✠ 𝐁o͟t͜͡─̄͟͞🩵\nFélix Manuel\n⇝ ${moment.tz('america/Los_angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_angeles').format('HH:mm:ss')} \n°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°\n\nѕτιϲκєя ϐγ: 𝐌A͜͡𝑲𝑖𝐌ꪖ - 𝐁o͟T͎ - 𝙼𝙳`
+global.packsticker =`°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°\n✦ Bσƚ: setsuna\n✦ Creador:ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄\n♾━━━━━━━━`
+global.packsticker2 = `━━━━━━━━♾\nঔৣ͜͡ீ͜❥🌺𝐁𝐎𝐓 𝐒𝐄𝐓︦︦𝐒𝐔𝐍𝐀˚\nFélix Manuel\n⇝ ${moment.tz('america/Los_angeles').format('DD/MM/YY')}\n⇝ ${moment.tz('America/Los_angeles').format('HH:mm:ss')} \n°.⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸⎯ܴ⎯̶᳞͇ࠝ⎯⃘̶⎯̸.°\n\nѕτιϲκєя ϐγ: 𝑩𝒚 ঔৣ͜͡🔥͜͡𝑲𝒆𝒊𝒍𝒊 𝒔.𝒓🔥᮫꫶ฺ໋⃜𝆹𝅦ۣ𝄁᭄`
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
@@ -72,18 +72,18 @@ global.catalogo = 'https://files.catbox.moe/nz7yzz.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.imagen1 = 'https://files.catbox.moe/1n7i9o.jpg'
-global.imagen2 = 'https://files.catbox.moe/d7mnug.jpg'
-global.imagen3 = 'https://files.catbox.moe/6u3zkv.jpg'
-global.imagenadult = 'https://files.catbox.moe/sufqlc.jpg'
-global.logo = 'https://files.catbox.moe/yuq36d.jpg'
+global.imagen1 = 'https://raw.githubusercontent.com/wilbersaske/keili2023/refs/heads/main/src/1.jpg'
+global.imagen2 = 'https://raw.githubusercontent.com/wilbersaske/keili2023/refs/heads/main/src/1.jpg'
+global.imagen3 = 'https://raw.githubusercontent.com/wilbersaske/keili2023/refs/heads/main/src/1.jpg'
+global.imagenadult = 'https://raw.githubusercontent.com/wilbersaske/keili2023/refs/heads/main/src/1.jpg'
+global.logo = 'https://raw.githubusercontent.com/wilbersaske/keili2023/refs/heads/main/src/1.jpg'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.gp4 = 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
-global.gp1 = 'https://chat.whatsapp.com/E1gpC3hj6ZkG0CCEZ4isRs' 
-global.gp2 = 'https://chat.whatsapp.com/DEGsbJYf7BBDe8c7R2dUxU'
-global.comunidad1 = 'https://chat.whatsapp.com/IEK8CGIqrI5L7KYtMGJNnx'
+global.gp4 = 'https://chat.whatsapp.com/K6z5EvV3EXkGdTzYwn8VU6'
+global.gp1 = 'https://chat.whatsapp.com/K6z5EvV3EXkGdTzYwn8VU6' 
+global.gp2 = 'https://chat.whatsapp.com/K6z5EvV3EXkGdTzYwn8VU6'
+global.comunidad1 = 'https://chat.whatsapp.com/K6z5EvV3EXkGdTzYwn8VU6'
 global.channel = 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
 global.channel2 = 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
 global.md = 'https://whatsapp.com/channel/0029VbAYhpiDJ6HAM3YDi32i'
